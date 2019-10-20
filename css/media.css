@@ -1,0 +1,812 @@
+/* Планшеты */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+    /* Первый экран */
+    .header,
+    .container {
+        height: 530px;
+    }
+
+    .container {
+        background: url(../img/tablet-background.png) no-repeat center/cover;
+    }
+
+    .logo {
+        width: 248px;
+    }
+
+    nav {
+        padding-top: 10px;
+    }
+
+    .social-media {
+        width: 168px;
+        padding: 0;
+        padding-top: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .offer {
+        width: 186px;
+        height: 280px;
+    }
+
+    .offer-nav {
+        width: 186px;
+        height: 340px;
+    }
+
+    .nav {
+        min-width: 186px;
+        width: 186px;
+        padding: 15px 0;
+        margin-bottom: 8px;
+        font-size: 11.75px;
+        font-weight: 400;
+    }
+
+    .slogan-container {
+        min-width: 300px;
+    }
+
+    .slogan-l {
+        padding-top: 40px;
+        font-size: 3rem;
+        font-family: "Noteworthy";
+        line-height: 1.2;
+    }
+
+    .slogan-m {
+        width: 200px;
+        font-size: 25px;
+        line-height: 1;
+    }
+
+    .slogan-s {
+        margin-top: 35px;
+        font-size: 16px;
+    }
+
+    .try-more-container {
+        padding: 60px 0;
+    }
+
+    .wanna-try {
+        height: 10px;
+    }
+
+    .wanna-try img {
+        height: 10px;
+    }
+
+    .more-info {
+        height: 5px;
+        padding: 12px 0;
+        font-weight: 400;
+    }
+
+    .more-info img {
+        height: 10px;
+    }
+
+    /* Зачем вам нужен тест на менопаузу */
+    .why-title {
+        font-size: 25px;
+    }
+
+    .answer-container {
+        min-width: 765px;
+    }
+
+    .answer-box {
+        min-width: 30%;
+    }
+
+    .answer-title {
+        font-size: 16.68px;
+    }
+
+    .answer-text-outer {
+        height: 246px;
+
+    }
+
+    .answer-text {
+        font-size: 12px;
+        padding-top: 35px;
+    }
+
+    /* Что нужно знать о менопаузе */
+    .about-container {
+        padding-top: 31px;
+    }
+
+    .what-need-to-know img {
+        height: 100px;
+        top: 30px;
+    }
+
+    .what-need-to-know img {
+        height: 150px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .description {
+        margin-top: 10px;
+        font-size: 14px;
+        height: 120px;
+    }
+
+    /* Пременопауза */
+    .premenopause {
+        min-width: 688px;
+    }
+
+    .premenopause img {
+        height: 169px;
+    }
+
+    /* Менопауза */
+    .menopause {
+        margin: 8% 0;
+        min-height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .menopause img {
+        height: 127px;
+    }
+
+    /* Постменопауза */
+    .postmenopause {
+        width: 50%;
+        margin-left: 5%;
+        margin-top: 50px;
+        height: 180px;
+        margin-top: 10%;
+        justify-content: flex-start;
+    }
+
+    .woman-backache {
+        top: 30px;
+        height: 137px;
+    }
+
+    /* Вас может заинтересовать тест */
+    .may-be-interesting-title {
+        margin: 10px;
+        font-size: 33px;
+    }
+
+    .description-box-text {
+        font-size: 15px;
+    }
+
+    /* Как диагностируют менопаузу */
+
+    .how-to-diagnose-title {
+        font-size: 36px;
+    }
+
+    .how-to-diagnose-box-title {
+        font-size: 24px;
+    }
+
+    .how-to-diagnose-boxes {
+        margin: 0 10%;
+    }
+
+    .round {
+        font-size: 15px;
+    }
+
+    /* Как использовать Frautest */
+    .how-to-use-frautest-title {
+        font-size: 20px;
+    }
+
+    .how-to-use-frautest-img {
+        height: 460px;
+    }
+
+    .how-to-use-frautest-text {
+        margin: 0 20%;
+        font-size: 23px;
+    }
+
+    .reading-woman {
+        width: 200px;
+    }
+
+    /* Как пользоваться Frautest */
+    .instruction-title {
+        font-size: 24px;
+    }
+
+    .instruction-image img {
+        opacity: 0;
+
+    }
+
+    .instruction-image {
+
+        background: url(../img/instruction-tablet.png) no-repeat top left/100%;
+    }
+
+    .how-to-read-it-title {
+        font-size: 24px;
+    }
+
+    .attention-title {
+        font-size: 24px;
+    }
+
+    .attention-list {
+        font-size: 13px;
+    }
+
+    /*Жить с ощущением счастья  */
+
+    .happy-feelings-title {
+        font-size: 34px;
+        margin: 5% 35%;
+    }
+
+    .name-age {
+        font-size: 21px;
+    }
+
+    .comment-container {
+        margin: 50px 4%;
+    }
+
+    .comment {
+        font-size: 12px;
+        max-width: 250px;
+        min-height: 200px;
+        max-height: 225px;
+    }
+
+    /* Форма обратной связи */
+
+    .feedback {
+        height: 480px;
+    }
+
+    .contact-form {
+        padding-top: 3%;
+    }
+
+    .qestion-title {
+        font-size: 24px;
+    }
+
+    .contact-form__input {
+        width: 356px;
+    }
+
+    .contact-form__btn {
+        width: 175px;
+        height: 48px;
+    }
+
+    /* Партнеры */
+
+    .where-buy-title {
+        font-size: 39px;
+    }
+
+    .where-buy-text {
+        margin: 3% 0;
+    }
+
+    .partners-container {
+        margin: 3% 10%;
+        grid-template-columns: repeat(4, 22.5%);
+    }
+
+    .partner-img img {
+        width: 70%;
+    }
+
+    /* Footer */
+
+    .footer-container {
+        margin: 0 8%;
+    }
+}
+
+
+
+
+
+
+
+
+/* Мобильные телефоны */
+@media screen and (max-width: 767px) {
+    .header {
+        background: rgb(226, 203, 182);
+        height: 553px;
+    }
+
+    .container {
+        background: url(../img/mobile-background.png) no-repeat 0px 63px/cover;
+        height: 335px;
+    }
+
+    nav {
+        padding: 0;
+        margin: 0;
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin-top: 10px;
+        height: 50px;
+    }
+
+    .logo img {
+        width: 156px;
+    }
+
+    .social-media {
+        padding-left: 0;
+    }
+
+    .social-media a {
+        width: 20px;
+        padding-right: 10px;
+    }
+
+    .offer {
+        min-width: 290px;
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    .offer-nav {
+        position: relative;
+        padding-top: 2px;
+        font-size: 9px;
+        min-width: 132px;
+        width: 132px;
+        height: 265px;
+    }
+
+    .nav {
+        margin: 0;
+        margin-bottom: 10px;
+        min-width: 132px;
+        padding: 0;
+        min-height: 35px;
+    }
+
+    .slogan-container {
+        position: absolute;
+        top: 280px;
+        margin: 0 auto;
+        width: 280px;
+        text-align: center;
+    }
+
+    .slogan-l {
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .slogan-m,
+    .slogan-s {
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+    .slogan-m {
+        line-height: 0;
+    }
+
+    .try-more-container {
+        padding: 0;
+        margin: 100px auto;
+        height: 36px;
+        top: 400px;
+        position: absolute;
+        width: 320px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .wanna-try,
+    .more-info {
+        font-size: 9px;
+    }
+
+    .wanna-try {
+        padding-left: 8px;
+        min-width: 132px;
+        justify-content: center;
+        min-height: 36px;
+    }
+
+    .wanna-try img {
+        margin: 0;
+        height: 10px;
+    }
+
+    .more-info {
+        border: 5px solid #af0e4b;
+        width: 122px;
+        height: 2px;
+        min-height: 25px;
+    }
+
+    .answer-container {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .why-title {
+        font-size: 18px;
+    }
+
+    .answer-box {
+        min-width: 320px;
+        justify-content: center;
+    }
+
+    .answer-title {
+        font-size: 16px;
+    }
+
+    .answer-text {
+        font-size: 10px;
+    }
+
+    .answer-text-outer {
+        margin: 0 25%;
+        min-height: 219px;
+        height: 219px;
+        margin-top: -20px;
+    }
+
+    .answer-text {
+        padding-top: 30px;
+        height: 170px;
+    }
+
+    /* Что нужно знать о менопаузе */
+    .title {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 10px;
+    }
+
+    .what-need-to-know {
+        min-width: 300px;
+
+    }
+
+    .what-need-to-know-title {
+        font-size: 18px;
+    }
+
+
+    .what-need-to-know img {
+        position: absolute;
+        left: 0;
+        top: 1360px;
+        height: 100px;
+    }
+
+
+
+    .what-need-to-know-description {
+        min-height: 122px;
+        margin-right: 0;
+        margin-left: 30%;
+        padding: 0;
+        min-height: 122px;
+        text-align: right;
+        width: 70%;
+    }
+
+    .premenopause {
+        justify-content: flex-start;
+        text-align-last: left;
+        background: url(../img/headache-mobile.png) no-repeat right center;
+    }
+
+    .premenopause-description {
+        text-align-last: left;
+        width: 40%;
+    }
+
+    .premenopause-img {
+        display: none;
+    }
+
+    .premenopause-title {
+        font-weight: 100;
+        font-size: 18px;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    /* Менопауза */
+    .menopause {
+        justify-content: space-between;
+    }
+
+    .menopause-img img {
+        opacity: 0;
+    }
+
+    .menopause-img {
+        width: 100px;
+        background: url(../img/woman-skirt-mobile.png) no-repeat center center;
+    }
+
+    .menopause-text {
+        text-align: right;
+        justify-content: flex-end;
+        width: 200px;
+    }
+
+    /* Постменопауза */
+
+    .postmenopause {
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: 0;
+        width: 60%;
+    }
+
+    .postmenoause-img {
+        display: none;
+        height: 10%;
+    }
+
+    .postmenopause-description:after {
+        content: url(../img/woman-backache-mobile.png);
+        position: absolute;
+        top: 0;
+        right: -130px;
+    }
+
+    .postmenopause-description {
+        justify-content: flex-start;
+        height: 200px;
+        position: relative;
+    }
+
+    .woman-backache {
+        width: 10px;
+    }
+
+    /* Вас может заинтересовать тест */
+    .may-be-interesting-title {
+        font-size: 22.5px;
+        margin: 10px 20%;
+    }
+
+
+    /* Как диагностируют менопаузу */
+    .how-to-diagnose-container {
+        padding-bottom: 20px;
+    }
+
+    .how-to-diagnose-title {
+        font-size: 17px;
+    }
+
+    .how-to-diagnose-box-title {
+        font-size: 12px;
+        width: 130px;
+    }
+
+    .how-to-diagnose-boxes {
+        font-size: 10px;
+        margin: 2%;
+
+    }
+
+    .round:before {
+        display: none;
+    }
+
+    .right-round:after {
+        display: none;
+    }
+
+    .how-to-diagnose-box-left {
+        min-width: 150px;
+        padding-right: 0;
+    }
+
+    .how-to-diagnose-box-center {
+        display: none;
+    }
+
+    .how-to-diagnose-box-right {
+        text-align-last: right;
+        min-width: 150px;
+    }
+
+    .buy-btn {
+        min-width: 100px;
+        bottom: -10px;
+        right: 0px;
+    }
+
+    /* Как использовать Frautest */
+    .how-to-use-frautest-container {
+        padding-top: 10px;
+    }
+
+    .how-to-use-frautest-title {
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    .how-to-use-frautest-img {
+        margin: 0 5%;
+        padding: 0;
+        height: 225px;
+    }
+
+    .how-to-use-frautest-text {
+        text-align: right;
+        width: 30%;
+        margin-top: 5px;
+        margin-left: 60%;
+        margin-right: 0;
+        font-size: 10px;
+    }
+
+    .reading-woman {
+        width: 100px;
+        height: 90px;
+        left: -90%;
+    }
+
+    /* Инстркукция */
+
+    .instruction-title {
+        text-align: right;
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .instruction-image img {
+        opacity: 0;
+    }
+
+    .instruction-image {
+        background: url(../img/instruction-mobile.png) no-repeat center center/contain;
+    }
+
+    .how-to-read-it-title {
+        min-width: 320px;
+        font-size: 17px;
+    }
+
+    .attention-title {
+        display: none;
+    }
+
+    .attention-list {
+        font-size: 10px;
+        margin-left: 10%;
+    }
+
+    .attention-list li {
+        margin-bottom: 5%;
+    }
+
+    /* Жить с ощущением счастья */
+
+    .happy-feelings-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .happy-feelings-title {
+        font-size: 18px;
+        margin: 5% 35%;
+    }
+
+    .comment-container {
+        justify-content: center;
+        margin: 5% 0;
+    }
+
+    .name-age {
+        font-size: 21px;
+    }
+
+    .comment {
+        font-size: 12px;
+        min-width: 250px;
+        min-height: 223px;
+    }
+
+    /* Форма обратной связи */
+
+    .feedback {
+        background: url(../img/feedback-mobile.png) no-repeat left center/cover;
+        min-height: 674px;
+        height: 674px;
+    }
+
+    .qestion-title {
+        font-size: 20px;
+    }
+
+    .contact-form__input {
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 264px;
+    }
+
+    .contact-form__btn {
+        bottom: -16%;
+    }
+
+    /* Партнеры */
+
+    .where-buy-title {
+        display: none;
+    }
+
+    .where-buy-text {
+        margin: 3% 20%;
+    }
+
+    .partners-container {
+        margin: 3% 15%;
+        grid-template-columns: repeat(2, 40%);
+        grid-template-rows: repeat(4, 27%);
+        justify-content: space-between;
+    }
+
+    .partner-img img {
+        width: 90%;
+    }
+
+    .second-row {
+        margin-top: 0;
+    }
+
+    .fourth-row {
+        margin-top: 50px;
+    }
+
+    .footer-container {
+        justify-content: space-between;
+        margin: 0 3%;
+        padding: 15px 0;
+        font-size: 7px;
+    }
+
+    .footer-logo-image img {
+        height: 30px;
+    }
+
+    .registration-number {
+        width: 50%;
+    }
+
+}
